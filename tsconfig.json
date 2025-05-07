@@ -1,23 +1,17 @@
 {
   "compilerOptions": {
     "target": "es2019",
-    "lib": ["es2019", "dom"],
+    "lib": ["es2019"],
     "module": "commonjs",
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
     "declaration": true,
-    "types": [
-      "node",
-    ]
+    "types": ["node"]
   },
 
-  "include": [
-    "spec/**/*.ts",
-  ],
+  "include": ["spec/**/*.ts"],
 
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

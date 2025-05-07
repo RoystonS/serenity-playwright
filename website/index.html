@@ -1,0 +1,32 @@
+<html lang="en-gb">
+  <head>
+    <title>Test form page</title>
+  </head>
+  <body>
+    <form>
+      <h1>Test form app</h1>
+
+      <h2>Bound field</h2>
+      <p>These two fields are bound to each other.</p>
+      <label>
+        Label1
+        <br />
+        <input type="text" name="field1" placeholder="Field1" />
+      </label>
+      <br />
+      <label for="field2">Label2<br /></label>
+      <input type="text" id="field2" name="field2" placeholder="Field2" />
+      <br />
+      <hr />
+      <h2>Calculator</h2>
+
+      <input type="text" name="op1" placeholder="Operand 1" />
+      +
+      <input type="text" name="op2" placeholder="Operand 2" />
+      =
+      <input type="text" readonly name="opResult" placeholder="Result" />
+    </form>
+  </body>
+
+  <script src="script.js"></script>
+</html>
